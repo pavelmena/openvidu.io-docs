@@ -76,7 +76,7 @@ sudo apt-get install -y nodejs
 docker run -p 4443:4443 --rm -e openvidu.secret=MY_SECRET openvidu/openvidu-server-kms:2.7.0
 ```
 
-4)  Install NPM dependencies of Angular app:
+4)  Install NPM dependencies of React app:
 
 ```
 cd openvidu-call-react/front/openvidu-call-react
